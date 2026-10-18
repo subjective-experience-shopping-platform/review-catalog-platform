@@ -1,0 +1,20 @@
+.git
+.env
+# Data is supplied through bind mounts and the catalog_data volume.
+/data
+frontend/node_modules
+frontend/dist
+backend/.venv
+models
+**/__pycache__
+**/.pytest_cache
+
+**/.ruff_cache
+**/.DS_Store
+frontend/*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+backend/tests
+
+# Repository instructions are not runtime content.
+AGENTS.md

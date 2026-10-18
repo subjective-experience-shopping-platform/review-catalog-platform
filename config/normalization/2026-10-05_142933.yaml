@@ -1,0 +1,95 @@
+normalization_version: '2026-10-05'
+embedding_model_id: snunlp/KR-SBERT-Medium-extended-klueNLItriplet_PARpair_QApair-klueSTS
+filters:
+  excluded_raw_aspects:
+  - 전반적 상품 경험
+clustering:
+  metric: cosine
+  linkage: complete
+  distance_tolerance: 1.0e-06
+  experiment_d:
+    aspect:
+      distance_threshold: 0.3591
+      naming_max_distance: 0.3591
+    status:
+      distance_threshold: 0.2
+      naming_max_distance: 0.2
+  status_opposition_groups:
+  - side_a:
+    - 있음
+    - 존재
+    - 발생
+    side_b:
+    - 없음
+    - 부재
+    - 미발생
+  - side_a:
+    - 좋음
+    - 만족
+    - 우수함
+    side_b:
+    - 나쁨
+    - 불만
+    - 불량
+  - side_a:
+    - 빠름
+    - 신속함
+    side_b:
+    - 느림
+    - 지연
+  - side_a:
+    - 가벼움
+    side_b:
+    - 무거움
+  - side_a:
+    - 높음
+    side_b:
+    - 낮음
+  - side_a:
+    - 밝음
+    side_b:
+    - 어두움
+  - side_a:
+    - 큼
+    side_b:
+    - 작음
+  - side_a:
+    - 편리함
+    side_b:
+    - 불편함
+  status_opposition_suffix_pairs:
+  - side_a_suffix: 있음
+    side_b_suffix: 없음
+  - side_a_suffix: 발생
+    side_b_suffix: 미발생
+  status_explicit_negation:
+    enabled: true
+    suffixes:
+    - 지 않음
+    - 아님
+    whole_word_tokens:
+    - 안
+    - 못
+    core_similarity_threshold: 0.65
+canonical_label:
+  centrality_weight_alpha: 0.7
+  min_canonical_review_count: 1
+  min_score_margin: 0.0
+  candidate_count:
+    size_1: 1
+    size_2: 2
+    size_3_to_9: 3
+    size_10_plus: 5
+  role_filters:
+    aspect_disallowed_exact:
+    - 좋음
+    - 나쁨
+    - 만족
+    - 불만
+    - 추천
+    - 아쉬움
+    - 긍정
+    - 부정
+    - 중립
+    status_disallowed_exact: []
+    exclude_status_matching_aspect: true

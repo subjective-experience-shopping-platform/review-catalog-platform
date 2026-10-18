@@ -1,0 +1,38 @@
+{
+  "schema_version": "2.0.0",
+  "mapping_table_version_id": "mapping-table-2026-10-05_142933-runtime-ac6472426607",
+  "normalization_version": "2026-10-05",
+  "normalization_run_id": "2026-10-05_142933",
+  "normalization_config_sha256": "ac647242660745e1e61868a0bf45cd2f6e57940d118d47f16b91f529768ff03a",
+  "embedding_model_id": "snunlp/KR-SBERT-Medium-extended-klueNLItriplet_PARpair_QApair-klueSTS",
+  "embedding_model_artifact_sha256": "0a32dc2d7b1b5189bf26e97785f1704af70f1fe2c5bdef0478158964c422c2cf",
+  "source_prompt_version_id": "prompt-opinion-units-9cb122d27d338039",
+  "source_prompt_sha256": "9cb122d27d3380392d3ccaf89432caac7d1ddbe981e3bf2dad2d477a81b61885",
+  "source_extraction_model_version_id": "extraction-model-codex-cli-gpt-6-luna-high",
+  "source_extraction_backend": "codex_cli",
+  "source_extraction_model": "gpt-6-luna",
+  "source_extraction_reasoning_effort": "high",
+  "metric": "cosine",
+  "linkage": "complete",
+  "aspect_distance_threshold": 0.3591,
+  "status_distance_threshold": 0.2,
+  "counts": {
+    "source_reviews": 1609,
+    "source_opinion_units": 5033,
+    "taxonomy_eligible_opinion_units": 4828,
+    "excluded_opinion_units": 205,
+    "aspect_mapping_expressions": 1316,
+    "aspect_clusters": 568,
+    "aspect_status_mapping_expressions": 2035,
+    "status_clusters": 1884
+  },
+  "artifacts": {
+    "opinion_units.parquet": "5423340dd6a60a6020dce9543e7a6bc35d0298e5dfbae3fa3d7c216f1eec9365",
+    "dataset.parquet": "5ff939c1f71a923382686160d972bb65d597be25d1266a2842223974339fbf0d",
+    "experiment_d_status_nodes.parquet": "eb935ed7bb4786e2f73c7a90a91b755a0a6993a224368c599b9cba78fcc8e2e8",
+    "experiment_d_aspect_nodes.parquet": "205bd26cfea506baab926803cd1b5926d465b6b31838c393651501c288b74c56",
+    "experiment_d_status_clusters.parquet": "01f9956ac15960ffdff70db86cb7da3ce98f7c9d492ddc4c7d115334b1875112",
+    "experiment_d.parquet": "f6c3849a9783ca902700f6499c2f713940025217baa4c3d8ebd16c0bb1632907",
+    "experiment_d_aspect_clusters.parquet": "1b4ce01594b443c40316355c2442a7970525309ce10749ce933b2beb4be6a64b"
+  }
+}
