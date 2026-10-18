@@ -9,7 +9,7 @@
 
 ## 시스템 아키텍쳐 구성
 
-<img src="https://raw.githubusercontent.com/subjective-experience-shopping-platform/review-catalog-platform/refs/heads/main/assets/experience-3.png" width="100%" />
+<img src="https://raw.githubusercontent.com/subjective-experience-shopping-platform/review-catalog-platform/refs/heads/main/assets/experience-3.png" alt="리뷰 카탈로그 시스템 아키텍처" width="100%" />
 
 주요 아키텍쳐 구성은 아래와 같습니다.
 
@@ -91,7 +91,7 @@ EC2를 통해 서빙되는 홈페이지는 다음 3개의 페이지로 구성되
 
 |  프로젝트 설명   |   상품 보고서  |  리뷰 데모   |
 | --- | --- | --- |
-|  [[assets/page1.png]]   |   [[assets/page2.png]]  |  [[assets/page3.png]]   |
+|  <img src="https://raw.githubusercontent.com/subjective-experience-shopping-platform/review-catalog-platform/refs/heads/main/assets/page1.png" alt="프로젝트 설명 화면" width="100%" />   |   <img src="https://raw.githubusercontent.com/subjective-experience-shopping-platform/review-catalog-platform/refs/heads/main/assets/page2.png" alt="상품 보고서 화면" width="100%" />  |  <img src="https://raw.githubusercontent.com/subjective-experience-shopping-platform/review-catalog-platform/refs/heads/main/assets/page3.png" alt="리뷰 데모 화면" width="100%" />   |
 
 
 ### 1. 프로젝트 설명
