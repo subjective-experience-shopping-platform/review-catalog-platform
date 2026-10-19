@@ -24,3 +24,7 @@ frontend/vite.config.d.ts
 !/data/migration/
 !/data/ingestion/
 models/
+
+# Local coding-agent instructions
+AGENTS.md
+AGNETS.md
